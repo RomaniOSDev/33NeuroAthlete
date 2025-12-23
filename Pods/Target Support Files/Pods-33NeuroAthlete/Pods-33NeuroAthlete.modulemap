@@ -1,0 +1,6 @@
+framework module Pods_33NeuroAthlete {
+  umbrella header "Pods-33NeuroAthlete-umbrella.h"
+
+  export *
+  module * { export * }
+}

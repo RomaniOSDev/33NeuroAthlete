@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CF7DB62EFB5FD40061AFA8 /* Array+Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D872EFB5FD40061AFA8 /* Array+Average.swift */; };
+		74CF7DB72EFB5FD40061AFA8 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D882EFB5FD40061AFA8 /* Color+Hex.swift */; };
+		74CF7DB82EFB5FD40061AFA8 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8A2EFB5FD40061AFA8 /* Achievement.swift */; };
+		74CF7DB92EFB5FD40061AFA8 /* CognitiveFatigueAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8B2EFB5FD40061AFA8 /* CognitiveFatigueAssessment.swift */; };
+		74CF7DBA2EFB5FD40061AFA8 /* CognitiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8C2EFB5FD40061AFA8 /* CognitiveTest.swift */; };
+		74CF7DBB2EFB5FD40061AFA8 /* NeuroProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8D2EFB5FD40061AFA8 /* NeuroProfile.swift */; };
+		74CF7DBC2EFB5FD40061AFA8 /* TestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8E2EFB5FD40061AFA8 /* TestSession.swift */; };
+		74CF7DBD2EFB5FD40061AFA8 /* TrainingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D8F2EFB5FD40061AFA8 /* TrainingProgram.swift */; };
+		74CF7DBE2EFB5FD40061AFA8 /* CognitiveFatigueAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D912EFB5FD40061AFA8 /* CognitiveFatigueAnalyzer.swift */; };
+		74CF7DBF2EFB5FD40061AFA8 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D922EFB5FD40061AFA8 /* DefaultTests.swift */; };
+		74CF7DC02EFB5FD40061AFA8 /* DifficultyProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D932EFB5FD40061AFA8 /* DifficultyProgression.swift */; };
+		74CF7DC12EFB5FD40061AFA8 /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D952EFB5FD40061AFA8 /* AchievementViewModel.swift */; };
+		74CF7DC22EFB5FD40061AFA8 /* FatigueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D962EFB5FD40061AFA8 /* FatigueViewModel.swift */; };
+		74CF7DC32EFB5FD40061AFA8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D972EFB5FD40061AFA8 /* ProfileViewModel.swift */; };
+		74CF7DC42EFB5FD40061AFA8 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D982EFB5FD40061AFA8 /* TestViewModel.swift */; };
+		74CF7DC52EFB5FD40061AFA8 /* TrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D992EFB5FD40061AFA8 /* TrainingViewModel.swift */; };
+		74CF7DC62EFB5FD40061AFA8 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D9B2EFB5FD40061AFA8 /* CheckLink.swift */; };
+		74CF7DC72EFB5FD40061AFA8 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D9C2EFB5FD40061AFA8 /* InternetViewController.swift */; };
+		74CF7DC82EFB5FD40061AFA8 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D9D2EFB5FD40061AFA8 /* LoaderViewController.swift */; };
+		74CF7DC92EFB5FD40061AFA8 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7D9F2EFB5FD40061AFA8 /* AchievementsView.swift */; };
+		74CF7DCA2EFB5FD40061AFA8 /* AttentionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA02EFB5FD40061AFA8 /* AttentionTestView.swift */; };
+		74CF7DCB2EFB5FD40061AFA8 /* DecisionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA12EFB5FD40061AFA8 /* DecisionTestView.swift */; };
+		74CF7DCC2EFB5FD40061AFA8 /* FatigueAssessmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA22EFB5FD40061AFA8 /* FatigueAssessmentView.swift */; };
+		74CF7DCD2EFB5FD40061AFA8 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA32EFB5FD40061AFA8 /* MainDashboardView.swift */; };
+		74CF7DCE2EFB5FD40061AFA8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA42EFB5FD40061AFA8 /* OnboardingView.swift */; };
+		74CF7DCF2EFB5FD40061AFA8 /* ProfileAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA52EFB5FD40061AFA8 /* ProfileAnalyticsView.swift */; };
+		74CF7DD02EFB5FD40061AFA8 /* ReactionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA62EFB5FD40061AFA8 /* ReactionTestView.swift */; };
+		74CF7DD12EFB5FD40061AFA8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA72EFB5FD40061AFA8 /* SettingsView.swift */; };
+		74CF7DD22EFB5FD40061AFA8 /* TrainingProgramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA82EFB5FD40061AFA8 /* TrainingProgramsView.swift */; };
+		74CF7DD32EFB5FD40061AFA8 /* VisionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DA92EFB5FD40061AFA8 /* VisionTestView.swift */; };
+		74CF7DD42EFB5FD40061AFA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DAB2EFB5FD40061AFA8 /* AppDelegate.swift */; };
+		74CF7DD52EFB5FD40061AFA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DAD2EFB5FD40061AFA8 /* ContentView.swift */; };
+		74CF7DD62EFB5FD40061AFA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DB32EFB5FD40061AFA8 /* SceneDelegate.swift */; };
+		74CF7DD72EFB5FD40061AFA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7DB42EFB5FD40061AFA8 /* ViewController.swift */; };
+		74CF7DD82EFB5FD40061AFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CF7DAC2EFB5FD40061AFA8 /* Assets.xcassets */; };
+		74CF7DDA2EFB5FD40061AFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CF7DB02EFB5FD40061AFA8 /* LaunchScreen.storyboard */; };
+		74CF7DDB2EFB5FD40061AFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CF7DB22EFB5FD40061AFA8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40AD933FFD83390F5D1F284F /* Pods-33NeuroAthlete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-33NeuroAthlete.release.xcconfig"; path = "Target Support Files/Pods-33NeuroAthlete/Pods-33NeuroAthlete.release.xcconfig"; sourceTree = "<group>"; };
+		741B2CE12EF7265900E6599F /* 33NeuroAthlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 33NeuroAthlete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CF7D872EFB5FD40061AFA8 /* Array+Average.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Average.swift"; sourceTree = "<group>"; };
+		74CF7D882EFB5FD40061AFA8 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		74CF7D8A2EFB5FD40061AFA8 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		74CF7D8B2EFB5FD40061AFA8 /* CognitiveFatigueAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveFatigueAssessment.swift; sourceTree = "<group>"; };
+		74CF7D8C2EFB5FD40061AFA8 /* CognitiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveTest.swift; sourceTree = "<group>"; };
+		74CF7D8D2EFB5FD40061AFA8 /* NeuroProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroProfile.swift; sourceTree = "<group>"; };
+		74CF7D8E2EFB5FD40061AFA8 /* TestSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSession.swift; sourceTree = "<group>"; };
+		74CF7D8F2EFB5FD40061AFA8 /* TrainingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgram.swift; sourceTree = "<group>"; };
+		74CF7D912EFB5FD40061AFA8 /* CognitiveFatigueAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveFatigueAnalyzer.swift; sourceTree = "<group>"; };
+		74CF7D922EFB5FD40061AFA8 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
+		74CF7D932EFB5FD40061AFA8 /* DifficultyProgression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyProgression.swift; sourceTree = "<group>"; };
+		74CF7D952EFB5FD40061AFA8 /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		74CF7D962EFB5FD40061AFA8 /* FatigueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatigueViewModel.swift; sourceTree = "<group>"; };
+		74CF7D972EFB5FD40061AFA8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		74CF7D982EFB5FD40061AFA8 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		74CF7D992EFB5FD40061AFA8 /* TrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewModel.swift; sourceTree = "<group>"; };
+		74CF7D9B2EFB5FD40061AFA8 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74CF7D9C2EFB5FD40061AFA8 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74CF7D9D2EFB5FD40061AFA8 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74CF7D9F2EFB5FD40061AFA8 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74CF7DA02EFB5FD40061AFA8 /* AttentionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttentionTestView.swift; sourceTree = "<group>"; };
+		74CF7DA12EFB5FD40061AFA8 /* DecisionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionTestView.swift; sourceTree = "<group>"; };
+		74CF7DA22EFB5FD40061AFA8 /* FatigueAssessmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatigueAssessmentView.swift; sourceTree = "<group>"; };
+		74CF7DA32EFB5FD40061AFA8 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		74CF7DA42EFB5FD40061AFA8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74CF7DA52EFB5FD40061AFA8 /* ProfileAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAnalyticsView.swift; sourceTree = "<group>"; };
+		74CF7DA62EFB5FD40061AFA8 /* ReactionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionTestView.swift; sourceTree = "<group>"; };
+		74CF7DA72EFB5FD40061AFA8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74CF7DA82EFB5FD40061AFA8 /* TrainingProgramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramsView.swift; sourceTree = "<group>"; };
+		74CF7DA92EFB5FD40061AFA8 /* VisionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionTestView.swift; sourceTree = "<group>"; };
+		74CF7DAB2EFB5FD40061AFA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74CF7DAC2EFB5FD40061AFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CF7DAD2EFB5FD40061AFA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74CF7DAE2EFB5FD40061AFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CF7DAF2EFB5FD40061AFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74CF7DB12EFB5FD40061AFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CF7DB32EFB5FD40061AFA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74CF7DB42EFB5FD40061AFA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90DE5B38F6E7C4B646D80101 /* Pods-33NeuroAthlete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-33NeuroAthlete.debug.xcconfig"; path = "Target Support Files/Pods-33NeuroAthlete/Pods-33NeuroAthlete.debug.xcconfig"; sourceTree = "<group>"; };
+		91A296C8E98D4624B46763DC /* Pods_33NeuroAthlete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_33NeuroAthlete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741B2CDE2EF7265900E6599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741B2CD82EF7265900E6599F = {
+			isa = PBXGroup;
+			children = (
+				74CF7DB52EFB5FD40061AFA8 /* 33NeuroAthlete */,
+				741B2CE22EF7265900E6599F /* Products */,
+				9B5EFB8A9FF2D006BB1CE283 /* Pods */,
+				A6E81CCD9BA80BF739517C54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		741B2CE22EF7265900E6599F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741B2CE12EF7265900E6599F /* 33NeuroAthlete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CF7D892EFB5FD40061AFA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D872EFB5FD40061AFA8 /* Array+Average.swift */,
+				74CF7D882EFB5FD40061AFA8 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74CF7D902EFB5FD40061AFA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D8A2EFB5FD40061AFA8 /* Achievement.swift */,
+				74CF7D8B2EFB5FD40061AFA8 /* CognitiveFatigueAssessment.swift */,
+				74CF7D8C2EFB5FD40061AFA8 /* CognitiveTest.swift */,
+				74CF7D8D2EFB5FD40061AFA8 /* NeuroProfile.swift */,
+				74CF7D8E2EFB5FD40061AFA8 /* TestSession.swift */,
+				74CF7D8F2EFB5FD40061AFA8 /* TrainingProgram.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74CF7D942EFB5FD40061AFA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D912EFB5FD40061AFA8 /* CognitiveFatigueAnalyzer.swift */,
+				74CF7D922EFB5FD40061AFA8 /* DefaultTests.swift */,
+				74CF7D932EFB5FD40061AFA8 /* DifficultyProgression.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74CF7D9A2EFB5FD40061AFA8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D952EFB5FD40061AFA8 /* AchievementViewModel.swift */,
+				74CF7D962EFB5FD40061AFA8 /* FatigueViewModel.swift */,
+				74CF7D972EFB5FD40061AFA8 /* ProfileViewModel.swift */,
+				74CF7D982EFB5FD40061AFA8 /* TestViewModel.swift */,
+				74CF7D992EFB5FD40061AFA8 /* TrainingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74CF7D9E2EFB5FD40061AFA8 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D9B2EFB5FD40061AFA8 /* CheckLink.swift */,
+				74CF7D9C2EFB5FD40061AFA8 /* InternetViewController.swift */,
+				74CF7D9D2EFB5FD40061AFA8 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74CF7DAA2EFB5FD40061AFA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D9E2EFB5FD40061AFA8 /* LoadingView */,
+				74CF7D9F2EFB5FD40061AFA8 /* AchievementsView.swift */,
+				74CF7DA02EFB5FD40061AFA8 /* AttentionTestView.swift */,
+				74CF7DA12EFB5FD40061AFA8 /* DecisionTestView.swift */,
+				74CF7DA22EFB5FD40061AFA8 /* FatigueAssessmentView.swift */,
+				74CF7DA32EFB5FD40061AFA8 /* MainDashboardView.swift */,
+				74CF7DA42EFB5FD40061AFA8 /* OnboardingView.swift */,
+				74CF7DA52EFB5FD40061AFA8 /* ProfileAnalyticsView.swift */,
+				74CF7DA62EFB5FD40061AFA8 /* ReactionTestView.swift */,
+				74CF7DA72EFB5FD40061AFA8 /* SettingsView.swift */,
+				74CF7DA82EFB5FD40061AFA8 /* TrainingProgramsView.swift */,
+				74CF7DA92EFB5FD40061AFA8 /* VisionTestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74CF7DB52EFB5FD40061AFA8 /* 33NeuroAthlete */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7D892EFB5FD40061AFA8 /* Extensions */,
+				74CF7D902EFB5FD40061AFA8 /* Models */,
+				74CF7D942EFB5FD40061AFA8 /* Utilities */,
+				74CF7D9A2EFB5FD40061AFA8 /* ViewModels */,
+				74CF7DAA2EFB5FD40061AFA8 /* Views */,
+				74CF7DAB2EFB5FD40061AFA8 /* AppDelegate.swift */,
+				74CF7DAC2EFB5FD40061AFA8 /* Assets.xcassets */,
+				74CF7DAD2EFB5FD40061AFA8 /* ContentView.swift */,
+				74CF7DAE2EFB5FD40061AFA8 /* Info.plist */,
+				74CF7DB02EFB5FD40061AFA8 /* LaunchScreen.storyboard */,
+				74CF7DB22EFB5FD40061AFA8 /* Main.storyboard */,
+				74CF7DB32EFB5FD40061AFA8 /* SceneDelegate.swift */,
+				74CF7DB42EFB5FD40061AFA8 /* ViewController.swift */,
+			);
+			path = 33NeuroAthlete;
+			sourceTree = "<group>";
+		};
+		9B5EFB8A9FF2D006BB1CE283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DE5B38F6E7C4B646D80101 /* Pods-33NeuroAthlete.debug.xcconfig */,
+				40AD933FFD83390F5D1F284F /* Pods-33NeuroAthlete.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6E81CCD9BA80BF739517C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A296C8E98D4624B46763DC /* Pods_33NeuroAthlete.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741B2CE02EF7265900E6599F /* 33NeuroAthlete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741B2CF42EF7265A00E6599F /* Build configuration list for PBXNativeTarget "33NeuroAthlete" */;
+			buildPhases = (
+				58A55578943A4C6C0795A06C /* [CP] Check Pods Manifest.lock */,
+				741B2CDD2EF7265900E6599F /* Sources */,
+				741B2CDE2EF7265900E6599F /* Frameworks */,
+				741B2CDF2EF7265900E6599F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 33NeuroAthlete;
+			productName = 33NeuroAthlete;
+			productReference = 741B2CE12EF7265900E6599F /* 33NeuroAthlete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741B2CD92EF7265900E6599F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					741B2CE02EF7265900E6599F = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 741B2CDC2EF7265900E6599F /* Build configuration list for PBXProject "33NeuroAthlete" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741B2CD82EF7265900E6599F;
+			productRefGroup = 741B2CE22EF7265900E6599F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741B2CE02EF7265900E6599F /* 33NeuroAthlete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741B2CDF2EF7265900E6599F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF7DD82EFB5FD40061AFA8 /* Assets.xcassets in Resources */,
+				74CF7DDA2EFB5FD40061AFA8 /* LaunchScreen.storyboard in Resources */,
+				74CF7DDB2EFB5FD40061AFA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A55578943A4C6C0795A06C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-33NeuroAthlete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741B2CDD2EF7265900E6599F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF7DB62EFB5FD40061AFA8 /* Array+Average.swift in Sources */,
+				74CF7DB72EFB5FD40061AFA8 /* Color+Hex.swift in Sources */,
+				74CF7DB82EFB5FD40061AFA8 /* Achievement.swift in Sources */,
+				74CF7DB92EFB5FD40061AFA8 /* CognitiveFatigueAssessment.swift in Sources */,
+				74CF7DBA2EFB5FD40061AFA8 /* CognitiveTest.swift in Sources */,
+				74CF7DBB2EFB5FD40061AFA8 /* NeuroProfile.swift in Sources */,
+				74CF7DBC2EFB5FD40061AFA8 /* TestSession.swift in Sources */,
+				74CF7DBD2EFB5FD40061AFA8 /* TrainingProgram.swift in Sources */,
+				74CF7DBE2EFB5FD40061AFA8 /* CognitiveFatigueAnalyzer.swift in Sources */,
+				74CF7DBF2EFB5FD40061AFA8 /* DefaultTests.swift in Sources */,
+				74CF7DC02EFB5FD40061AFA8 /* DifficultyProgression.swift in Sources */,
+				74CF7DC12EFB5FD40061AFA8 /* AchievementViewModel.swift in Sources */,
+				74CF7DC22EFB5FD40061AFA8 /* FatigueViewModel.swift in Sources */,
+				74CF7DC32EFB5FD40061AFA8 /* ProfileViewModel.swift in Sources */,
+				74CF7DC42EFB5FD40061AFA8 /* TestViewModel.swift in Sources */,
+				74CF7DC52EFB5FD40061AFA8 /* TrainingViewModel.swift in Sources */,
+				74CF7DC62EFB5FD40061AFA8 /* CheckLink.swift in Sources */,
+				74CF7DC72EFB5FD40061AFA8 /* InternetViewController.swift in Sources */,
+				74CF7DC82EFB5FD40061AFA8 /* LoaderViewController.swift in Sources */,
+				74CF7DC92EFB5FD40061AFA8 /* AchievementsView.swift in Sources */,
+				74CF7DCA2EFB5FD40061AFA8 /* AttentionTestView.swift in Sources */,
+				74CF7DCB2EFB5FD40061AFA8 /* DecisionTestView.swift in Sources */,
+				74CF7DCC2EFB5FD40061AFA8 /* FatigueAssessmentView.swift in Sources */,
+				74CF7DCD2EFB5FD40061AFA8 /* MainDashboardView.swift in Sources */,
+				74CF7DCE2EFB5FD40061AFA8 /* OnboardingView.swift in Sources */,
+				74CF7DCF2EFB5FD40061AFA8 /* ProfileAnalyticsView.swift in Sources */,
+				74CF7DD02EFB5FD40061AFA8 /* ReactionTestView.swift in Sources */,
+				74CF7DD12EFB5FD40061AFA8 /* SettingsView.swift in Sources */,
+				74CF7DD22EFB5FD40061AFA8 /* TrainingProgramsView.swift in Sources */,
+				74CF7DD32EFB5FD40061AFA8 /* VisionTestView.swift in Sources */,
+				74CF7DD42EFB5FD40061AFA8 /* AppDelegate.swift in Sources */,
+				74CF7DD52EFB5FD40061AFA8 /* ContentView.swift in Sources */,
+				74CF7DD62EFB5FD40061AFA8 /* SceneDelegate.swift in Sources */,
+				74CF7DD72EFB5FD40061AFA8 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74CF7DB02EFB5FD40061AFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CF7DAF2EFB5FD40061AFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74CF7DB22EFB5FD40061AFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CF7DB12EFB5FD40061AFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741B2CF52EF7265A00E6599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DE5B38F6E7C4B646D80101 /* Pods-33NeuroAthlete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 33NeuroAthlete/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NoviNeuro Athlete";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duc.n0vn3r7thl9t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		741B2CF62EF7265A00E6599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AD933FFD83390F5D1F284F /* Pods-33NeuroAthlete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 33NeuroAthlete/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NoviNeuro Athlete";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duc.n0vn3r7thl9t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		741B2CF72EF7265A00E6599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		741B2CF82EF7265A00E6599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741B2CDC2EF7265900E6599F /* Build configuration list for PBXProject "33NeuroAthlete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741B2CF72EF7265A00E6599F /* Debug */,
+				741B2CF82EF7265A00E6599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741B2CF42EF7265A00E6599F /* Build configuration list for PBXNativeTarget "33NeuroAthlete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741B2CF52EF7265A00E6599F /* Debug */,
+				741B2CF62EF7265A00E6599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741B2CD92EF7265900E6599F /* Project object */;
+}
